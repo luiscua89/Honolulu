@@ -14,6 +14,8 @@
 		1825B6C91B4824C3001642DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1825B6C81B4824C3001642DB /* Images.xcassets */; };
 		1825B6CC1B4824C3001642DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1825B6CA1B4824C3001642DB /* LaunchScreen.xib */; };
 		1825B6D81B4824C3001642DB /* HonolululuArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825B6D71B4824C3001642DB /* HonolululuArtTests.swift */; };
+		186F813B1B482E4A00283048 /* main-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 186F813A1B482E4A00283048 /* main-photo.png */; };
+		186F813D1B482F3400283048 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 186F813C1B482F3400283048 /* PublicArt.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		1825B6D11B4824C3001642DB /* HonolululuArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonolululuArtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1825B6D61B4824C3001642DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1825B6D71B4824C3001642DB /* HonolululuArtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonolululuArtTests.swift; sourceTree = "<group>"; };
+		186F813A1B482E4A00283048 /* main-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-photo.png"; sourceTree = "<group>"; };
+		186F813C1B482F3400283048 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 		1825B6BB1B4824C3001642DB /* HonolululuArt */ = {
 			isa = PBXGroup;
 			children = (
+				186F81391B482E4A00283048 /* mapsimages */,
 				1825B6BE1B4824C3001642DB /* AppDelegate.swift */,
+				186F813C1B482F3400283048 /* PublicArt.json */,
 				1825B6C31B4824C3001642DB /* ViewController.swift */,
 				1825B6C51B4824C3001642DB /* Main.storyboard */,
 				1825B6C81B4824C3001642DB /* Images.xcassets */,
@@ -113,6 +119,14 @@
 				1825B6D61B4824C3001642DB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186F81391B482E4A00283048 /* mapsimages */ = {
+			isa = PBXGroup;
+			children = (
+				186F813A1B482E4A00283048 /* main-photo.png */,
+			);
+			path = mapsimages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1825B6C71B4824C3001642DB /* Main.storyboard in Resources */,
+				186F813B1B482E4A00283048 /* main-photo.png in Resources */,
 				1825B6CC1B4824C3001642DB /* LaunchScreen.xib in Resources */,
 				1825B6C91B4824C3001642DB /* Images.xcassets in Resources */,
+				186F813D1B482F3400283048 /* PublicArt.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +429,7 @@
 				1825B6DD1B4824C3001642DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1825B6DE1B4824C3001642DB /* Build configuration list for PBXNativeTarget "HonolululuArtTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				1825B6E01B4824C3001642DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
