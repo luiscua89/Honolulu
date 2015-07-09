@@ -16,6 +16,15 @@
 		1825B6D81B4824C3001642DB /* HonolululuArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825B6D71B4824C3001642DB /* HonolululuArtTests.swift */; };
 		186F813B1B482E4A00283048 /* main-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 186F813A1B482E4A00283048 /* main-photo.png */; };
 		186F813D1B482F3400283048 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 186F813C1B482F3400283048 /* PublicArt.json */; };
+		6AD88E0B1B4DF9180096393A /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD88E0A1B4DF9180096393A /* Artwork.swift */; };
+		6AD88E0D1B4DFD880096393A /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD88E0C1B4DFD880096393A /* VCMapView.swift */; };
+		6AD88E111B4E0AC80096393A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD88E101B4E0AC80096393A /* JSON.swift */; };
+		6AD88E171B4E20960096393A /* Beach-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD88E131B4E20960096393A /* Beach-icon.png */; };
+		6AD88E181B4E20960096393A /* Beach-icon1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD88E141B4E20960096393A /* Beach-icon1x.png */; };
+		6AD88E191B4E20960096393A /* Beach-icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD88E151B4E20960096393A /* Beach-icon2x.png */; };
+		6AD88E1A1B4E20960096393A /* Beach-icon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD88E161B4E20960096393A /* Beach-icon3x.png */; };
+		6AD88E1D1B4E229C0096393A /* Beach-icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD88E1B1B4E229C0096393A /* Beach-icon180.png */; };
+		6AD88E1E1B4E229C0096393A /* Beach-icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD88E1C1B4E229C0096393A /* Beach-icon120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,15 @@
 		1825B6D71B4824C3001642DB /* HonolululuArtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonolululuArtTests.swift; sourceTree = "<group>"; };
 		186F813A1B482E4A00283048 /* main-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-photo.png"; sourceTree = "<group>"; };
 		186F813C1B482F3400283048 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		6AD88E0A1B4DF9180096393A /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		6AD88E0C1B4DFD880096393A /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		6AD88E101B4E0AC80096393A /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		6AD88E131B4E20960096393A /* Beach-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach-icon.png"; sourceTree = "<group>"; };
+		6AD88E141B4E20960096393A /* Beach-icon1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach-icon1x.png"; sourceTree = "<group>"; };
+		6AD88E151B4E20960096393A /* Beach-icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach-icon2x.png"; sourceTree = "<group>"; };
+		6AD88E161B4E20960096393A /* Beach-icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach-icon3x.png"; sourceTree = "<group>"; };
+		6AD88E1B1B4E229C0096393A /* Beach-icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach-icon180.png"; sourceTree = "<group>"; };
+		6AD88E1C1B4E229C0096393A /* Beach-icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach-icon120.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,8 @@
 		1825B6BB1B4824C3001642DB /* HonolululuArt */ = {
 			isa = PBXGroup;
 			children = (
+				6AD88E121B4E20960096393A /* beach */,
+				6AD88E101B4E0AC80096393A /* JSON.swift */,
 				186F81391B482E4A00283048 /* mapsimages */,
 				1825B6BE1B4824C3001642DB /* AppDelegate.swift */,
 				186F813C1B482F3400283048 /* PublicArt.json */,
@@ -92,6 +112,8 @@
 				1825B6CA1B4824C3001642DB /* LaunchScreen.xib */,
 				1825B6C01B4824C3001642DB /* HonolululuArt.xcdatamodeld */,
 				1825B6BC1B4824C3001642DB /* Supporting Files */,
+				6AD88E0A1B4DF9180096393A /* Artwork.swift */,
+				6AD88E0C1B4DFD880096393A /* VCMapView.swift */,
 			);
 			path = HonolululuArt;
 			sourceTree = "<group>";
@@ -127,6 +149,19 @@
 				186F813A1B482E4A00283048 /* main-photo.png */,
 			);
 			path = mapsimages;
+			sourceTree = "<group>";
+		};
+		6AD88E121B4E20960096393A /* beach */ = {
+			isa = PBXGroup;
+			children = (
+				6AD88E1B1B4E229C0096393A /* Beach-icon180.png */,
+				6AD88E1C1B4E229C0096393A /* Beach-icon120.png */,
+				6AD88E131B4E20960096393A /* Beach-icon.png */,
+				6AD88E141B4E20960096393A /* Beach-icon1x.png */,
+				6AD88E151B4E20960096393A /* Beach-icon2x.png */,
+				6AD88E161B4E20960096393A /* Beach-icon3x.png */,
+			);
+			path = beach;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,11 +244,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD88E171B4E20960096393A /* Beach-icon.png in Resources */,
 				1825B6C71B4824C3001642DB /* Main.storyboard in Resources */,
 				186F813B1B482E4A00283048 /* main-photo.png in Resources */,
+				6AD88E181B4E20960096393A /* Beach-icon1x.png in Resources */,
 				1825B6CC1B4824C3001642DB /* LaunchScreen.xib in Resources */,
 				1825B6C91B4824C3001642DB /* Images.xcassets in Resources */,
+				6AD88E1D1B4E229C0096393A /* Beach-icon180.png in Resources */,
+				6AD88E1A1B4E20960096393A /* Beach-icon3x.png in Resources */,
+				6AD88E191B4E20960096393A /* Beach-icon2x.png in Resources */,
 				186F813D1B482F3400283048 /* PublicArt.json in Resources */,
+				6AD88E1E1B4E229C0096393A /* Beach-icon120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +274,9 @@
 			files = (
 				1825B6C41B4824C3001642DB /* ViewController.swift in Sources */,
 				1825B6C21B4824C3001642DB /* HonolululuArt.xcdatamodeld in Sources */,
+				6AD88E0D1B4DFD880096393A /* VCMapView.swift in Sources */,
+				6AD88E111B4E0AC80096393A /* JSON.swift in Sources */,
+				6AD88E0B1B4DF9180096393A /* Artwork.swift in Sources */,
 				1825B6BF1B4824C3001642DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
