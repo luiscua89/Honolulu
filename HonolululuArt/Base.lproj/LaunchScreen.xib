@@ -16,8 +16,8 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Beach-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="xuK-2T-7OA">
-                    <rect key="frame" x="120" y="132" width="240" height="128"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beach-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="xuK-2T-7OA">
+                    <rect key="frame" x="69" y="126" width="240" height="128"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="240" id="uni-PU-u6j"/>
                     </constraints>
@@ -25,11 +25,13 @@
             </subviews>
             <color key="backgroundColor" red="1" green="0.86274509799999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="xuK-2T-7OA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="89" id="0ZA-yb-5V0"/>
+                <constraint firstItem="xuK-2T-7OA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="69" id="0ZA-yb-5V0"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4lp-dB-jqm"/>
+                <constraint firstAttribute="centerX" secondItem="xuK-2T-7OA" secondAttribute="centerX" constant="51" id="E3s-lg-oQt"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="FHb-t4-to5"/>
-                <constraint firstItem="xuK-2T-7OA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="129" id="Gsb-pN-Afe"/>
+                <constraint firstItem="xuK-2T-7OA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="126" id="Gsb-pN-Afe"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Tf9-bu-NmT"/>
+                <constraint firstAttribute="centerY" secondItem="xuK-2T-7OA" secondAttribute="centerY" constant="50" id="jHf-mg-Fj5"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
